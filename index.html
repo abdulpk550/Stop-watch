@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="stopwatch-display">
+            <span id="display-timer">00 : 00 : 00</span>
+        </div>
+        <div class="stopwatch-controls">
+            <button id="stop-btn" class="btn stop" onclick="pauseWatch()" >⏹️ Stop</button>
+            <button id="play-btn" class="btn play" onclick="watchStart()">▶️ Play</button>
+            <button id="reset-btn" class="btn reset" onclick="resetWatch()">🔄 Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

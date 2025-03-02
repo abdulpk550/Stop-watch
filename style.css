@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+/* Stopwatch Container */
+.stopwatch-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Stopwatch Display */
+.stopwatch-display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.stopwatch-display span {
+    padding: 0 0.2rem;
+}
+
+/* Stopwatch Controls */
+.stopwatch-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Play Button */
+.play {
+    background: #28a745;
+    color: #fff;
+}
+
+.play:hover {
+    background: #218838;
+}
+
+/* Stop Button */
+.stop {
+    background: #dc3545;
+    color: #fff;
+}
+
+.stop:hover {
+    background: #c82333;
+}
+
+/* Reset Button */
+.reset {
+    background: #ffc107;
+    color: #000;
+}
+
+.reset:hover {
+    background: #e0a800;
+}
