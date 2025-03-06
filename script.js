@@ -25,12 +25,12 @@ function watchStart() {
     timer = setInterval(stopWatch, 1000);
 };
 function resetWatch() {
-    
-    [hours , minutes , seconds] =[0,0,0]
+
+    [hours, minutes, seconds] = [0, 0, 0]
     dispaly.innerHTML = "00 : 00 : 00"
 };
 
 function pauseWatch() {
-    
+
     clearInterval(timer);
 };
